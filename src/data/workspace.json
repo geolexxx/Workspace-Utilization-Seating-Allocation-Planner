@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "total_desks": 434,
+    "total_headcount": 362,
+    "weeks": 12,
+    "nominal_ratio": 0.8341,
+    "seed": 42,
+    "generated_at": "2026-06-12T16:47:38.379Z"
+  },
+  "neighborhoods": [
+    {
+      "id": "L2-A",
+      "floor": "L2",
+      "zone": "North Open",
+      "desks": 64,
+      "avg_util": 0.543,
+      "peak_util": 0.7188,
+      "assigned_hc": 79
+    },
+    {
+      "id": "L2-B",
+      "floor": "L2",
+      "zone": "North Quiet",
+      "desks": 40,
+      "avg_util": 0.3146,
+      "peak_util": 0.425,
+      "assigned_hc": 18
+    },
+    {
+      "id": "L3-A",
+      "floor": "L3",
+      "zone": "Central Hub",
+      "desks": 88,
+      "avg_util": 0.8782,
+      "peak_util": 1.1023,
+      "assigned_hc": 102
+    },
+    {
+      "id": "L3-B",
+      "floor": "L3",
+      "zone": "Central Pods",
+      "desks": 48,
+      "avg_util": 0.1976,
+      "peak_util": 0.25,
+      "assigned_hc": 12
+    },
+    {
+      "id": "L5-A",
+      "floor": "L5",
+      "zone": "South Open",
+      "desks": 72,
+      "avg_util": 0.5609,
+      "peak_util": 0.75,
+      "assigned_hc": 73
+    },
+    {
+      "id": "L5-B",
+      "floor": "L5",
+      "zone": "South Collab",
+      "desks": 36,
+      "avg_util": 0.3532,
+      "peak_util": 0.5,
+      "assigned_hc": 22
+    },
+    {
+      "id": "L6-A",
+      "floor": "L6",
+      "zone": "Annex Flex",
+      "desks": 56,
+      "avg_util": 0.3568,
+      "peak_util": 0.5,
+      "assigned_hc": 40
+    },
+    {
+      "id": "L6-B",
+      "floor": "L6",
+      "zone": "Annex Focus",
+      "desks": 30,
+      "avg_util": 0.4244,
+      "peak_util": 0.5333,
+      "assigned_hc": 16
+    }
+  ],
+  "team_demand": {
+    "Trust & Safety": {
+      "headcount": 58,
+      "peak_demand": 58,
+      "in_office_days": 4,
+      "home": "L3-A"
+    },
+    "Monetization Eng": {
+      "headcount": 44,
+      "peak_demand": 40,
+      "in_office_days": 3.5,
+      "home": "L3-A"
+    },
+    "Creator Growth": {
+      "headcount": 31,
+      "peak_demand": 22,
+      "in_office_days": 2.5,
+      "home": "L2-A"
+    },
+    "Data Platform": {
+      "headcount": 39,
+      "peak_demand": 33,
+      "in_office_days": 3,
+      "home": "L5-A"
+    },
+    "Product Design": {
+      "headcount": 22,
+      "peak_demand": 18,
+      "in_office_days": 3,
+      "home": "L5-B"
+    },
+    "Commercial / Sales": {
+      "headcount": 48,
+      "peak_demand": 28,
+      "in_office_days": 2,
+      "home": "L2-A"
+    },
+    "Legal & Policy": {
+      "headcount": 18,
+      "peak_demand": 17,
+      "in_office_days": 3.5,
+      "home": "L2-B"
+    },
+    "Recruiting / HR": {
+      "headcount": 16,
+      "peak_demand": 16,
+      "in_office_days": 4,
+      "home": "L6-B"
+    },
+    "Finance / BizOps": {
+      "headcount": 21,
+      "peak_demand": 17,
+      "in_office_days": 3,
+      "home": "L6-A"
+    },
+    "Infra / SRE": {
+      "headcount": 34,
+      "peak_demand": 24,
+      "in_office_days": 2.5,
+      "home": "L5-A"
+    },
+    "Marketing": {
+      "headcount": 19,
+      "peak_demand": 12,
+      "in_office_days": 2,
+      "home": "L6-A"
+    },
+    "PMO": {
+      "headcount": 12,
+      "peak_demand": 12,
+      "in_office_days": 4,
+      "home": "L3-B"
+    }
+  },
+  "weekly_trend": [
+    {
+      "week": 1,
+      "util": 0.5189
+    },
+    {
+      "week": 2,
+      "util": 0.4963
+    },
+    {
+      "week": 3,
+      "util": 0.5147
+    },
+    {
+      "week": 4,
+      "util": 0.5184
+    },
+    {
+      "week": 5,
+      "util": 0.5032
+    },
+    {
+      "week": 6,
+      "util": 0.4949
+    },
+    {
+      "week": 7,
+      "util": 0.5032
+    },
+    {
+      "week": 8,
+      "util": 0.5221
+    },
+    {
+      "week": 9,
+      "util": 0.5124
+    },
+    {
+      "week": 10,
+      "util": 0.4954
+    },
+    {
+      "week": 11,
+      "util": 0.5055
+    },
+    {
+      "week": 12,
+      "util": 0.4954
+    }
+  ],
+  "dow_profile": [
+    {
+      "dow": 0,
+      "util": 0.4199
+    },
+    {
+      "dow": 1,
+      "util": 0.5887
+    },
+    {
+      "dow": 2,
+      "util": 0.6279
+    },
+    {
+      "dow": 3,
+      "util": 0.5384
+    },
+    {
+      "dow": 4,
+      "util": 0.3587
+    }
+  ]
+}
